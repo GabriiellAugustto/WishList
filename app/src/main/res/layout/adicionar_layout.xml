@@ -31,7 +31,7 @@
         android:gravity="center">
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/edidescricao"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
@@ -39,15 +39,16 @@
         android:hint="Descrição" />
 
         <EditText
+            android:id="@+id/edidata"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:hint="Data" />
 
-    <Button
+        <Button
         android:layout_marginTop="30dp"
-        android:id="@+id/buttonAddUpdate"
+        android:id="@+id/buttonAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Adicionar"
